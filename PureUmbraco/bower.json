@@ -1,0 +1,6 @@
+{
+  "name": "pure-umbraco",
+  "dependencies": {
+    "pure": "~0.6.0"
+  }
+}

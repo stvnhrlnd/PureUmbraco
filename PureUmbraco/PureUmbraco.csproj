@@ -236,6 +236,46 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\Umbraco.sdf" />
+    <Content Include="bower_components\pure\base-context-min.css" />
+    <Content Include="bower_components\pure\base-context.css" />
+    <Content Include="bower_components\pure\base-min.css" />
+    <Content Include="bower_components\pure\base.css" />
+    <Content Include="bower_components\pure\buttons-core-min.css" />
+    <Content Include="bower_components\pure\buttons-core.css" />
+    <Content Include="bower_components\pure\buttons-min.css" />
+    <Content Include="bower_components\pure\buttons.css" />
+    <Content Include="bower_components\pure\forms-min.css" />
+    <Content Include="bower_components\pure\forms-nr-min.css" />
+    <Content Include="bower_components\pure\forms-nr.css" />
+    <Content Include="bower_components\pure\forms.css" />
+    <Content Include="bower_components\pure\grids-core-min.css" />
+    <Content Include="bower_components\pure\grids-core.css" />
+    <Content Include="bower_components\pure\grids-min.css" />
+    <Content Include="bower_components\pure\grids-responsive-min.css" />
+    <Content Include="bower_components\pure\grids-responsive-old-ie-min.css" />
+    <Content Include="bower_components\pure\grids-responsive-old-ie.css" />
+    <Content Include="bower_components\pure\grids-responsive.css" />
+    <Content Include="bower_components\pure\grids-units-min.css" />
+    <Content Include="bower_components\pure\grids-units.css" />
+    <Content Include="bower_components\pure\grids.css" />
+    <Content Include="bower_components\pure\menus-core-min.css" />
+    <Content Include="bower_components\pure\menus-core.css" />
+    <Content Include="bower_components\pure\menus-dropdown-min.css" />
+    <Content Include="bower_components\pure\menus-dropdown.css" />
+    <Content Include="bower_components\pure\menus-horizontal-min.css" />
+    <Content Include="bower_components\pure\menus-horizontal.css" />
+    <Content Include="bower_components\pure\menus-min.css" />
+    <Content Include="bower_components\pure\menus-scrollable-min.css" />
+    <Content Include="bower_components\pure\menus-scrollable.css" />
+    <Content Include="bower_components\pure\menus-skin-min.css" />
+    <Content Include="bower_components\pure\menus-skin.css" />
+    <Content Include="bower_components\pure\menus.css" />
+    <Content Include="bower_components\pure\pure-min.css" />
+    <Content Include="bower_components\pure\pure-nr-min.css" />
+    <Content Include="bower_components\pure\pure-nr.css" />
+    <Content Include="bower_components\pure\pure.css" />
+    <Content Include="bower_components\pure\tables-min.css" />
+    <Content Include="bower_components\pure\tables.css" />
     <Content Include="Config\grid.editors.config.js" />
     <Content Include="Config\splashes\booting.aspx" />
     <Content Include="Config\splashes\noNodes.aspx" />
@@ -2883,6 +2923,12 @@
     <Content Include="umbraco\Xslt\Web.config" />
     <Content Include="umbraco_client\CodeMirror\Js\Mode\Razor\LICENSE" />
     <Content Include="umbraco_client\CodeMirror\Js\Mode\Sieve\LICENSE" />
+    <Content Include="bower.json" />
+    <Content Include="bower_components\pure\.bower.json" />
+    <Content Include="bower_components\pure\bower.json" />
+    <Content Include="bower_components\pure\HISTORY.md" />
+    <Content Include="bower_components\pure\LICENSE.md" />
+    <Content Include="bower_components\pure\README.md" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
