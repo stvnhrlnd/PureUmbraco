@@ -2930,6 +2930,7 @@
     <Content Include="bower_components\pure\LICENSE.md" />
     <Content Include="bower_components\pure\README.md" />
     <Content Include="Views\Partials\Grid\Pure.cshtml" />
+    <Content Include="Views\GridsDemo.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

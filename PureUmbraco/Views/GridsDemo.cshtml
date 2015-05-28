@@ -1,0 +1,23 @@
+﻿@inherits UmbracoTemplatePage
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Grids Demo</title>
+
+    <link rel="stylesheet" href="~/bower_components/pure/pure-min.css">
+
+    <!--[if lte IE 8]>
+    <link rel="stylesheet" href="~/bower_components/pure/grids-responsive-old-ie-min.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+    <link rel="stylesheet" href="~/bower_components/pure/grids-responsive-min.css">
+    <!--<![endif]-->
+</head>
+
+<body>
+    @Model.Content.GetGridHtml("content", "Pure")
+</body>
+</html>
