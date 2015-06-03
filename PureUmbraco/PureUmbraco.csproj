@@ -279,6 +279,7 @@
     <Content Include="Config\grid.editors.config.js" />
     <Content Include="Config\splashes\booting.aspx" />
     <Content Include="Config\splashes\noNodes.aspx" />
+    <Content Include="css\style.css" />
     <Content Include="default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="umbraco\Actions\delete.aspx" />
@@ -2942,7 +2943,6 @@
     <Folder Include="App_Code\" />
     <Folder Include="App_Data\packages\created\" />
     <Folder Include="App_Plugins\" />
-    <Folder Include="css\" />
     <Folder Include="masterpages\" />
     <Folder Include="media\" />
     <Folder Include="scripts\" />
