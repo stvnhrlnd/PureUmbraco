@@ -42,5 +42,15 @@
 	        "style": "border-left: 3px solid #ccc; padding: 10px; color: #ccc; font-family: serif; font-variant: italic; font-size: 18px",
 	        "markup": "<blockquote>#value#</blockquote>"
 	    }
-	}
+	},
+    {
+        "name": "Subheading",
+        "alias": "subheading",
+        "view": "textstring",
+        "icon": "icon-coin",
+        "config": {
+            "style": "font-size: 30px; line-height: 35px; font-weight: bold",
+            "markup": "<h2>#value#</h2>"
+        }
+    }
 ]
