@@ -279,7 +279,7 @@
     <Content Include="Config\grid.editors.config.js" />
     <Content Include="Config\splashes\booting.aspx" />
     <Content Include="Config\splashes\noNodes.aspx" />
-    <Content Include="css\style.css" />
+    <Content Include="css\pure-grid-demo.css" />
     <Content Include="default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="umbraco\Actions\delete.aspx" />
@@ -2931,7 +2931,7 @@
     <Content Include="bower_components\pure\LICENSE.md" />
     <Content Include="bower_components\pure\README.md" />
     <Content Include="Views\Partials\Grid\Pure.cshtml" />
-    <Content Include="Views\GridsDemo.cshtml" />
+    <Content Include="Views\PureGridDemo.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
