@@ -2932,8 +2932,11 @@
     <Content Include="bower_components\pure\README.md" />
     <Content Include="Views\Partials\Grid\Pure.cshtml" />
     <Content Include="Views\PureGridDemo.cshtml" />
-    <Content Include="App_Data\packages\created\createdPackages.config" />
+    <Content Include="App_Data\packages\created\createdPackages.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="media\created-packages\Pure_Grid_Layout_1.0.0.zip" />
+    <Content Include="media\created-packages\Pure_Grid_Layout_2.0.0.zip" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
