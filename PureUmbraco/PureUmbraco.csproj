@@ -2935,6 +2935,7 @@
     <Content Include="App_Data\packages\created\createdPackages.config" />
     <Content Include="media\created-packages\Pure_Grid_Layout_1.0.0.zip" />
     <Content Include="Views\Partials\Grid\Pure24.cshtml" />
+    <Content Include="media\created-packages\Pure_Grid_Layout_1.1.0.zip" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
