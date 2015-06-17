@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Grids Demo</title>
+    <title>Pure Grid Demo</title>
 
     <link rel="stylesheet" href="~/bower_components/pure/pure-min.css">
 
@@ -21,5 +21,6 @@
 
 <body>
     @Model.Content.GetGridHtml("content", "Pure")
+    @Model.Content.GetGridHtml("moreContent", "Pure24")
 </body>
 </html>
