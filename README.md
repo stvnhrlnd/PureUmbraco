@@ -8,8 +8,6 @@ The [Umbraco package](https://our.umbraco.org/projects/website-utilities/pure-gr
 
 The Visual Studio project also contains an example document type, template, and content node.
 
-At the moment only [5ths-based grids](http://purecss.io/grids/#grids-units-sizes) are supported.
-
 ## Backoffice Login
 Username: admin  
 Password: pure
