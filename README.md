@@ -3,10 +3,12 @@ This project is a complete Visual Studio 2013 solution that demonstrates how to 
 
 ## What's Included
 The [Umbraco package](https://our.umbraco.org/projects/website-utilities/pure-grid-layout) contains the following:
-* Pure Grid Datatype
-* Pure Grid Partial View
+* 2 Pure Grid Datatypes
+* 2 Pure Grid Partial Views
 
 The Visual Studio project also contains an example document type, template, and content node.
+
+Both 5ths and 24ths based grids are supported.
 
 ## Backoffice Login
 Username: admin  
