@@ -1,0 +1,71 @@
+﻿@inherits UmbracoViewPage<dynamic>
+
+@functions
+{
+    public static MvcHtmlString RenderElementAttributes(dynamic gridItem)
+    {
+        var attributes = new List<string>();
+
+        if (gridItem.config != null)
+        {
+            foreach (var property in gridItem.config.Properties())
+            {
+                attributes.Add(string.Format("{0}=\"{1}\"", property.Name, property.Value));
+            }
+        }
+
+        if (gridItem.styles != null)
+        {
+            var css = new List<string>();
+
+            foreach (var property in gridItem.styles.Properties())
+            {
+                css.Add(string.Format("{0}: {1};", property.Name, property.Value));
+            }
+
+            if (css.Any())
+            {
+                attributes.Add(string.Format("style=\"{0}\"", string.Join(" ", css)));
+            }
+        }
+
+        return new MvcHtmlString(string.Join(" ", attributes));
+    }
+}
+
+@helper RenderRow(dynamic row)
+{
+    <div @RenderElementAttributes(row)>
+        <div class="pure-g">
+            @foreach (var area in row.areas)
+            {
+                <div class="pure-u-1 pure-u-md-@(area.grid)-24">
+                    <div @RenderElementAttributes(area)>
+                        @foreach (var control in area.controls)
+                        {
+                            if (control != null && control.editor != null && control.editor.view != null)
+                            {
+                                @Html.Partial("Grid/Editors/Base", (object)control)
+                            }
+                        }
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+}
+
+@if (Model != null && Model.sections != null)
+{
+    <div class="pure-g">
+        @foreach (var section in Model.sections)
+        {
+            <div class="pure-u-1 pure-u-md-@(section.grid)-24">
+                @foreach (var row in section.rows)
+                {
+                    @RenderRow(row)
+                }
+            </div>
+        }
+    </div>
+}
